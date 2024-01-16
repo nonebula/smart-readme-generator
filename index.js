@@ -40,6 +40,12 @@ const questions = [
   },
   {
     type: "input",
+    name: "credits",
+    message:
+      "Now for credits! Who else was involved in the project and did you use starter code?",
+  },
+  {
+    type: "input",
     name: "tests",
     message: "How do you run tests on your project? Provide test instructions:",
   },
